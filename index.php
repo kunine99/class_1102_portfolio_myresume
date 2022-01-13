@@ -80,19 +80,20 @@
 
   <!-- About || 關於我 -->
 
-  <div class="w3-row w3-padding-64 " id="about">
+  <div class="w3-row w3-padding-64 container " id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-      <img src="https://picsum.photos/id/1025/400/300" class="w3-round w3-image w3-opacity-min box" alt="Table Setting" width="600" height="750">
+      <img src="./image/myheadshot.png" class="w3-round w3-image w3-opacity-min box" alt="Table Setting" width="300" height="450">
+      <!-- https://picsum.photos/id/1025/400/300 -->
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center data-text=" Contact Me." id="exe" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000"">About || 關於我</h1><br>
+      <h1 class="w3-center" data-text="Contact Me." id="exe" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">About || 關於我</h1><br>
       <h5 class=" w3-center">立志轉職為工程師的人</h5>
-        <p class="w3-large">hello！我畢業於 銘傳大學—應用日語學系
-        <p class="w3-large">生日：xxxx/9月
-        <p class="w3-large">現居地：新北市汐止區
-        <p class="w3-large">期望職位：前/後端工程師(全職)
-          <!-- <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+      <p class="w3-large">hello！我畢業於 銘傳大學—應用日語學系
+      <p class="w3-large">生日：xxxx/9月
+      <p class="w3-large">現居地：新北市汐止區
+      <p class="w3-large">期望職位：前/後端工程師(全職)
+        <!-- <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
     </div>
   </div>
 
@@ -103,8 +104,10 @@
   <!-- <div class="container mt-5" id="link-tabs"> -->
   <!-- <div class="resume-section-content "> -->
   <div class="container-fluid ">
-    <h2 class="mb-5" class="por_title col-12 text-right" data-text="Contact Me." id="exe" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">Experience || 經歷</h2>
-    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+    <h2 class="mb-5" class="por_title col-12 text-center " data-text="Contact Me." id="exe" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">
+      <p class="text-center">Experience || 經歷</p>
+    </h2>
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-5  container ">
       <div class="flex-grow-1">
         <h3 class="mb-0">泰山職業訓練場－PHP資料庫網頁設計班</h3>
         <div class="subheading mb-3">報名政府職訓局開辦課程【PHP資料庫網頁設計班】【920小時】，學習網頁程式設計相關技術，後端學習使用PHP原生語言撰寫網頁並搭配MySQL建構資料庫 進行資料管理，前端則使用HTML、CSS、JavaScript/JQ撰寫出具有動態效果的網頁內容，並配合Bootstrap 框架製作出RWD響應式網頁，最後再使用git進行基礎的版本控制。</div>
@@ -126,9 +129,10 @@
   <!-- Experience 經歷 END -->
 
   <!-- Portfolio || 作品集 -->
-
-  <div class="mt-12 container-fluid" id="link-tabs">
-    <h2 class="mb-5" class="por_title col-12 text-center" data-text="Contact Me." id="port" data-aos="fade-center" data-aos-delay="170" data-aos-duration="1000">Portfolio || 作品集</h2>
+  <div class=" mt-12" id="link-tabs">
+    <h2 class="mb-5" class="por_title col-12 text-center" data-text="Contact Me." id="port" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">
+      <p class="text-center">Portfolio || 作品集</p>
+    </h2>
     <!-- Nav tabs -->
     <ul class="nav nav-tabs justify-content-around">
       <li class="nav-item">
@@ -276,82 +280,83 @@
           </div>
         </div> -->
         <!-- tab2 row2 end -->
+      </div>
+      <!-- 分頁二 前後端  end-->
 
-        <!-- 分頁二 前後端  end-->
 
-
-        <!-- 分頁三 其他-->
-        <div id="page3" class="container tab-pane fade "><br>
-          <div class="row">
-            <div class="col-md-4 w-80">
-              <div class="box">
-                <img src="./image/ps_01.jpg" class="card-img-top" alt="...">
-                <h3 class="text-secondary">職訓局宣傳海報</h3>
-                <div class="line bg-success"></div>
-                <p>photoshop</p>
-              </div>
-            </div>
-            <div class="col-md-4 w-80">
-              <div class="box">
-                <img src="./image/ps_02.jpg" class="card-img-top" alt="...">
-                <h3 class="text-secondary">老街旅遊海報</h3>
-                <div class="line bg-success"></div>
-                <p>photoshop</p>
-              </div>
-            </div>
-            <div class="col-md-4 w-80">
-              <div class="box">
-                <img src="./image/ps_03.jpg" class="card-img-top" alt="...">
-                <h3 class="text-secondary">虎年年曆</h3>
-                <div class="line bg-success"></div>
-                <p>photoshop</p>
-              </div>
+      <!-- 分頁三 其他-->
+      <div id="page3" class="container tab-pane fade "><br>
+        <div class="row">
+          <div class="col-md-4 w-80">
+            <div class="box">
+              <img src="./image/ps_01.jpg" class="card-img-top" alt="...">
+              <h3 class="text-secondary">職訓局宣傳海報</h3>
+              <div class="line bg-success"></div>
+              <p>photoshop</p>
             </div>
           </div>
-          <!-- 分頁三 END-->
-
+          <div class="col-md-4 w-80">
+            <div class="box">
+              <img src="./image/ps_02.jpg" class="card-img-top" alt="...">
+              <h3 class="text-secondary">老街旅遊海報</h3>
+              <div class="line bg-success"></div>
+              <p>photoshop</p>
+            </div>
+          </div>
+          <div class="col-md-4 w-80">
+            <div class="box">
+              <img src="./image/ps_03.jpg" class="card-img-top" alt="...">
+              <h3 class="text-secondary">虎年年曆</h3>
+              <div class="line bg-success"></div>
+              <p>photoshop</p>
+            </div>
+          </div>
         </div>
+        <!-- 分頁三 END-->
       </div>
     </div>
-  </div>
+    <!-- tabs end -->
+    <!-- Portfolio || 作品集 END-->
 
   <!-- tabs end -->
   <!-- Portfolio || 作品集 END-->
 
   <!-- Contact Container -->
   <div class="container-fluid w3-padding-64 w3-theme-l5 " id="contact">
-    <div class="w3-row">
-      <div class="w3-col m5" class="por_title col-12 text-right" data-text="Contact Me." id="por" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">
-        <div class="w3-padding-16"><span class="w3-xlarge  w3-bottombar" id="contact">Contact Me || 聯絡我</span></div>
-        <h3>求職條件</h3>
-        <p>求職條件：全職</p>
-        <p>可上班日期：隨時</p>
-        <p>希望待遇：面議</p>
-        <p>求職地區：北部</p>
-        <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> 新北市汐止區, 台灣</p>
-        <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 1515151515</p>
-        <p><i class="fas fa-envelope me-3 w3-text-teal w3-xlarge"></i> rongyy94job@gmail.com</p>
-        <!-- 感謝您撥冗閱讀，如有任何需要，請隨時聯絡我！ -->
+    <div class="container">
+      <div class="w3-row">
+        <div class="w3-col m5" class="por_title col-12 text-right " data-text="Contact Me." id="por" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">
+          <div class="w3-padding-16 "><span class="w3-xlarge  w3-bottombar" id="contact">Contact Me || 聯絡我</span></div>
+          <h3>求職條件</h3>
+          <p>求職條件：全職</p>
+          <p>可上班日期：隨時</p>
+          <p>希望待遇：面議</p>
+          <p>求職地區：北部</p>
+          <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> 新北市汐止區, 台灣</p>
+          <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +00 0000000000</p>
+          <p><i class="fas fa-envelope me-3 w3-text-teal w3-xlarge"></i> rongyy94job@gmail.com</p>
+          <!-- 感謝您撥冗閱讀，如有任何需要，請隨時聯絡我！ -->
 
-      </div>
-      <div class="w3-col m7 box">
-        <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
-          <div class="w3-section">
-            <label>Name</label>
-            <input class="w3-input" type="text" name="Name" required>
-          </div>
-          <div class="w3-section">
-            <label>Email</label>
-            <input class="w3-input" type="text" name="Email" required>
-          </div>
-          <div class="w3-section">
-            <label>Message</label>
-            <input class="w3-input" type="text" name="Message" required>
-          </div>
-          <!-- <input class="w3-check" type="checkbox" checked name="Like"> -->
-          <!-- <label>I Like it!</label> -->
-          <button type="submit" class="w3-button w3-right w3-theme">Send</button>
-        </form>
+        </div>
+        <div class="w3-col m7 box">
+          <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input" type="text" name="Name" required>
+            </div>
+            <div class="w3-section">
+              <label>Email</label>
+              <input class="w3-input" type="text" name="Email" required>
+            </div>
+            <div class="w3-section">
+              <label>Message</label>
+              <input class="w3-input" type="text" name="Message" required>
+            </div>
+            <!-- <input class="w3-check" type="checkbox" checked name="Like"> -->
+            <!-- <label>I Like it!</label> -->
+            <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
