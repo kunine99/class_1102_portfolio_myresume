@@ -22,10 +22,11 @@
 </head>
 
 <body>
+<!-- <?php include_once "header.php"?> -->
   <!-- <div class="container-fluid"> -->
   <header>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E8ECEB;">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +34,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">About || 關於我 <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#about">About || 關於我 <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#exe">Experience || 經歷</a>
@@ -43,6 +44,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact Me || 聯絡我</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./front/login.html">Login || 登入</a>
           </li>
         </ul>
       </div>
@@ -80,7 +84,7 @@
 
   <!-- About || 關於我 -->
 
-  <div class="w3-row w3-padding-64 container " id="about">
+  <div class="w3-row w3-padding-64  " id="#about" style="background-color: #E8ECEB;">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
       <img src="./image/myheadshot.png" class="w3-round w3-image w3-opacity-min box" alt="Table Setting" width="300" height="450">
       <!-- https://picsum.photos/id/1025/400/300 -->
@@ -103,16 +107,17 @@
   <!-- <div class="container mt-12 " id="link-tabs"> -->
   <!-- <div class="container mt-5" id="link-tabs"> -->
   <!-- <div class="resume-section-content "> -->
-  <div class="container-fluid ">
-    <h2 class="mb-5" class="por_title col-12 text-center " data-text="Contact Me." id="exe" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">
-      <p class="text-center">Experience || 經歷</p>
+  <div class="container-fluid text-white" style="background-color: #EBC999;">
+    <h2 class="mb-2" class="por_title col-12 text-center " data-text="Contact Me." id="exe" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">
+     <br>
+      <p class="text-center" >Experience || 經歷</p>
     </h2>
-    <div class="d-flex flex-column flex-md-row justify-content-between mb-5  container ">
+    <div class="d-flex flex-column flex-md-row justify-content-between">
       <div class="flex-grow-1">
         <h3 class="mb-0">泰山職業訓練場－PHP資料庫網頁設計班</h3>
         <div class="subheading mb-3">報名政府職訓局開辦課程【PHP資料庫網頁設計班】【920小時】，學習網頁程式設計相關技術，後端學習使用PHP原生語言撰寫網頁並搭配MySQL建構資料庫 進行資料管理，前端則使用HTML、CSS、JavaScript/JQ撰寫出具有動態效果的網頁內容，並配合Bootstrap 框架製作出RWD響應式網頁，最後再使用git進行基礎的版本控制。</div>
       </div>
-      <div class="flex-shrink-0"><span class="text-primary">2021/09~2022/03</span></div>
+      <div class="flex-shrink-0"><span class="text-white">2021/09~2022/03</span></div>
     </div>
   </div>
   <!-- <div class="d-flex flex-column flex-md-row justify-content-between">
@@ -129,8 +134,9 @@
   <!-- Experience 經歷 END -->
 
   <!-- Portfolio || 作品集 -->
-  <div class=" mt-12" id="link-tabs">
+  <div class=" mt-12 text-white" id="link-tabs" style="background-color: #8CA9D3;">
     <h2 class="mb-5" class="por_title col-12 text-center" data-text="Contact Me." id="port" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">
+      <br>
       <p class="text-center">Portfolio || 作品集</p>
     </h2>
     <!-- Nav tabs -->
@@ -322,7 +328,8 @@
   <!-- Portfolio || 作品集 END-->
 
   <!-- Contact Container -->
-  <div class="container-fluid w3-padding-64 w3-theme-l5 " id="contact">
+  <!-- 顏色候補 #FAE6B1-->
+  <div class="container-fluid w3-padding-64 w3-theme-l5 text-white" id="contact" style="background-color: #F26659;">
     <div class="container">
       <div class="w3-row">
         <div class="w3-col m5" class="por_title col-12 text-right " data-text="Contact Me." id="por" data-aos="fade-left" data-aos-delay="170" data-aos-duration="1000">
@@ -364,12 +371,15 @@
   <!-- Contact Container END-->
 
   <!-- footer -->
-  <footer class="text-center text-white fixed-bottom bg-dark">
-    <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2);">
+<!-- <?php include_once "footer.php"?> -->
+  <!-- footer -->
+  <footer class="text-center text-white fixed-bottom " style="background-color: #F26659;">
+    <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2022
       <a class="text-white">resume</a>
     </div>
   </footer>
+  <!-- footer2 end -->
   <!-- footer2 end -->
 
   <script>
